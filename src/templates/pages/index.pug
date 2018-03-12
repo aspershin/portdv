@@ -1,0 +1,13 @@
+extends ../template
+
+block variables
+    - var title = 'Добро пожаловать'
+
+block content
+    h1 Главная страница
+    form(action="")
+        label(for="email") email
+        imput(name="email" id="email")
+        label(for="password") password
+        imput(name="password" id="password")
+        button Войти
